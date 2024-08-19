@@ -15,6 +15,9 @@ import { Subscribed } from './subscribed/entities/subscribed.entity';
       username: process.env.DATABASE_USER,
       database: process.env.DATABASE_NAME,
       entities: [Subscribed],
+      ssl: {
+        rejectUnauthorized: false,
+      },
       synchronize: true,
       logging: true,
     }),
