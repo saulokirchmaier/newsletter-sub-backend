@@ -19,7 +19,7 @@ Para este projeto foram utilizadas as seguintes tecnologias:
 - [NestJS](https://github.com/nestjs/nest).
 - [Docker](https://www.docker.com).
 - [PostgreSQL](https://www.postgresql.org).
-
+- [Swagger](https://swagger.io).
 ## Utilização
 
 ### Requisitos
@@ -70,7 +70,8 @@ Antes de rodar o projeto tenha certeza de estar com as seguintes tecnologias ins
   ```bash
     Server is running on PORT 3001
   ```
-- Pronto pode rodar a aplicação web e testar a vontade. A aplicação web você encontra [aqui](https://github.com/saulokirchmaier/newsletter-sub-web).
+- Com o sistema iniciado abra a documentação da API no google chrome http://localhost:3001/api para pode utilizar.
+- Ou rode a aplicação web. A aplicação web você encontra [aqui](https://github.com/saulokirchmaier/newsletter-sub-web).
 
 ### Testes
 
