@@ -1,10 +1,10 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { SubscribedController } from './subscribed.controller';
-import { SubscribedService } from './subscribed.service';
-import { Subscribed } from './entities/subscribed.entity';
+import { SubscribedController } from '../subscribed.controller';
+import { SubscribedService } from '../subscribed.service';
+import { Subscribed } from '../entities/subscribed.entity';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { CreateSubscribeDto } from './dto/create-subscribe.dto';
+import { CreateSubscribeDto } from '../dto/create-subscribe.dto';
 
 describe('SubscribedController', () => {
   let controller: SubscribedController;

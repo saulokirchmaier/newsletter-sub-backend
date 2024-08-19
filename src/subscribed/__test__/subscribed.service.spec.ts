@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { SubscribedService } from './subscribed.service';
-import { Subscribed } from './entities/subscribed.entity';
+import { SubscribedService } from '../subscribed.service';
+import { Subscribed } from '../entities/subscribed.entity';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { CreateSubscribeDto } from './dto/create-subscribe.dto';
+import { CreateSubscribeDto } from '../dto/create-subscribe.dto';
 
 describe('SubscribedService', () => {
   let service: SubscribedService;
